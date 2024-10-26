@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E3</title>
+</head>
+<body style="background-color: green;">
+    <hr>
+    <ul>
+        <li>Coffe</li>
+        <li>Tea</li>
+        <ul>
+            <li>Black Tea</li>
+            <li>Green Tea</li>
+            <ul>
+                <li>China</li>
+                <li>Africa</li>
+            </ul>
+        </ul>
+        <li>Milk</li>
+    </ul>
+    <p>Coffe</p>
+    <pre>   - black hot drink</pre>
+    <p>Milk</p>
+    <pre>   - white cold drink</pre>
+
+    <p>Numbered list</p>
+    <ol>
+        <li>Apples</li>
+        <li>Bananas</li>
+    </ol>
+
+    <p>Letter List</p>
+    <ol type="A">
+        <li>Apples</li>
+        <li>Banana</li>
+    </ol>
+
+    <p>Lower letter list</p>
+    <ol type="a">
+        <li>Apples</li>
+        <li>Banana</li>
+    </ol>
+
+    <p>Roman</p>
+    <ol type="I">
+        <li>Apples</li>
+        <li>Banana</li>
+    </ol>
+
+    <p>Roman Lower</p>
+    <ol type="i">
+        <li>Apples</li>
+        <li>Banana</li>
+    </ol>
+
+    <hr>
+
+    <p>Link para enviar correo 
+        <br/>
+        <a href="mail:david.martinez.parra.7e7@itb.cat">Enviar mail</a>
+    </p>
+    
+    <hr>
+
+    <h1>CREATE TABLE examples</h1>
+    <ul>
+        <li><a href="">Basic CREATE TABLE statement</a></li>
+        <li><a href="">Create a table with a particular storage engine</a></li>
+    </ul>
+
+    <h1>Basic CREATE TABLE statement</h1>
+
+    <p>A very basic <code>CREATE TABLE</code> statement:</p>
+
+    <pre>
+mysql> CREATE TABLE example (
+    id INT,
+    data VARCHAR(100)
+);
+    </pre>
+
+    <h1>Viewing a table</h1>
+
+    <pre>
+mysql> SELECT * FROM libros;
++----+-----------------------------------+----------------------------+------------------+--------+
+| id |              titulo               |           autor            | ano_publicacion  | precio |
++----+-----------------------------------+----------------------------+------------------+--------+
+|  1 | Cien años de soledad              | Gabriel García Márquez     |              1967|  15.99 |
+|  2 | 1984                              | George Orwell              |              1949|  12.50 |
+|  3 | El gran Gatsby                    | F. Scott Fitzgerald        |              1925|  10.99 |
+|  4 | Don Quijote de la Mancha          | Miguel de Cervantes        |              1605|  14.75 |
++----+-----------------------------------+----------------------------+------------------+--------+
+    </pre>
+
+</body>
+</html>
